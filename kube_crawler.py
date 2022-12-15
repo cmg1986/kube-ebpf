@@ -45,7 +45,7 @@ def poll_kube_api():
             global pods_list
             pods_list = pods_list_
 
-            print(f"{len(pods_list)} pods are monitored by the agent")
+            print(f"{len(pods_list)} pods are monitored by the agent for demo")
             if DEBUG:
                 print(pods_list)
 
