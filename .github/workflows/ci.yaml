@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: ghcr.io/mrsupiri/kube-ebpf
+  IMAGE_NAME: ghcr.io/cmg1986/kube-ebpf-test
   DOCKER_BUILDKIT: 1
 
 jobs:
